@@ -1,5 +1,7 @@
+import * from "animate.css";
+
 $(document).ready(function(){
-    
+    $("body").show(2000);
 });
 function submitted()
 {
