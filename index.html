@@ -36,27 +36,27 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                   <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">About Me</a></li>
-                  <li><a href="#">My Works</a></li> 
-                  <li><a href="#">Contacts</a></li> 
-                  <li><a href="#">More Information</a></li>
+                  <li><a href="#aboutme">About Me</a></li>
+                  <li><a href="#works">My Works</a></li> 
+                  <li><a href="#contacts">Connect With Me</a></li> 
+                  <li><a href="#message" data-toggle="modal" data-target="#message">Leave Message</a></li>
                 </ul></div>   
-
         </nav>
 
     </header>
     <body >
-    
+        <div id="space">
         <div id="me">
            <div class="text-center">
                <h1><br><br><br><br>Hey there, This is Cyan</h1>
-            <h4> Welcome to my space! </h4>
-            <img class="myphoto" src="images/mypic.jfif" alt="My Picture">
+            <h5> Welcome to my space! </h5>
+            <img class="myphoto img-responsive" src="images/mypic.jfif" alt="My Picture">
         </div>
         </div>
 
 
         <div id="aboutme">
+            <br><br>
             <h3 class="text-center">About Me<br><br></h3>
             <h5 class="text-center">
                 A self-motivated enthusiastic programmer.
@@ -83,16 +83,16 @@
                 <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="images/background.jpeg" alt="CPP"> 
+                <img src="images/background2.jpeg" alt="CPP"> 
                     <div class="carousel-caption" style="color:rgb(219, 235, 76)">
-                        <a href="#"><h3>CPP Projects</h3></a><p>Contains binary tree, operator overloading and double linked list..</p>
+                        <a href="https://github.com/cyangirl/"><h3>CPP Projects</h3></a><p>Contains binary tree, operator overloading and double linked list..</p>
                         </div>
             </div>  
           
             <div class="item">
-                <img src="images/background3.jpeg" alt="Art Gallery">    
+                <img src="images/art.jpg" alt="Art Gallery">    
                     <div class="carousel-caption" style="color:rgb(231, 240, 105)">
-                        <a href="#"><h3>Art Gallery</h3></a><p>Display of drawings and video of an artist..</p>
+                        <a href="https://cyangirl.github.io/ArtGallery/"><h3>Art Gallery</h3></a><p>Display of drawings and video of an artist..</p>
                     </div> 
             </div>
         </div>
@@ -110,16 +110,41 @@
             </div>
         </div>
 
+        <div class="modal fade" id="message" tabindex="-1" role="dialog" aria-labelledby="message" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" id="leave">
+                    <div class="modal-header">
+                        <h4 class="text-center head">Leave A Message</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal" role="form">
+                            <textarea id="text" rows="4" cols="60" placeholder="Let Me Know!"></textarea>
+                            <br><br><button class="btn btn-primary" onclick="submitted()" type="submit" id="submit">See Ya Soon</button>
+                            <button class="btn btn-default" type="submit">Not Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="index.js"></script>
     </body>
     <footer>
         <br><br><br>
-        <div id="contacts">
-
-            <div><h3> Contact Me</h3></div>
-            <div><a href="https://github.com/cyangirl/"><h3>GitHub</h3></a></div>
-
+        <nav class="nav">
+        <div id="contacts" class="container-fluid">
+            <div class="text-center"><h3>Connect With Me</h3></div>
+            <div class="flex">
+            <div><a href="https://github.com/cyangirl/"><h5>GitHub</h5></a></div>
+            <div><a href="#"><h5>Email</h5></a></div>
+            <div ><a href="#"><h5>Phone</h5></a></div>
+            <div><a href="#"><h5>LinkedIn</h5></a></div>
+            </div>
         </div>
+        </nav>
     <br>
+    </div>
     </footer>
     </div>
+    
 </html>
