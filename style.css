@@ -31,8 +31,9 @@ html,body{
     background-image: url("images/new3.jpg");
 }
 textarea{
+    size: inherit;
     opacity:0.7;
-    width:30vw;
+    width:40vw;
 }
 h6{
     color:rgb(226, 232, 243);
