@@ -14,7 +14,6 @@ html,body{
 .myphoto{
     border-radius: 50%;
     box-shadow: 8px 8px 10px rgb(9, 8, 17);
-    
     margin:auto;
 }
 .item{
@@ -45,7 +44,7 @@ h1,h3,.head{
     text-shadow: 6px 6px 10px black;
 }
 #space{
-    width:70vw;
+    width:85vw;
     margin:auto;
     background-image: url("images/background4.jpg");
     background-size: 100vw;
@@ -54,7 +53,7 @@ h1,h3,.head{
     background-image:url("images/new3.jpg");
     box-shadow:10px 10px 15px black; 
     border-radius: 2vw;
-    width:65vw;
+    width:75vw;
     margin:auto;
     background-size: 100vw;
 
@@ -96,5 +95,5 @@ h1,h3,.head{
     animation-iteration-count: infinite;
 }
 .fa{
-    color:black;
+    color:white;
 }
