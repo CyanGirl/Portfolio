@@ -32,7 +32,7 @@ html,body{
 }
 textarea{
     opacity:0.7;
-    size: 60vw;
+    width:30vw;
 }
 h6{
     color:rgb(226, 232, 243);
