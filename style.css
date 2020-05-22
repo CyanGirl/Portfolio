@@ -32,8 +32,9 @@ html,body{
 }
 textarea{
     opacity:0.7;
+    size: 60vw;
 }
-h5{
+h6{
     color:rgb(226, 232, 243);
     font-size: medium;
     text-shadow: 5px 5px 10px black;
