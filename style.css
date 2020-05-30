@@ -72,6 +72,10 @@ h3,
 #skills {
   padding: 5%;
 }
+h5 {
+  background-color: black;
+  padding: 5px;
+}
 .myphoto {
   animation-name: shake;
   animation-duration: 2s;
@@ -107,4 +111,7 @@ h3,
 }
 .fa {
   color: white;
+}
+h4 {
+  color: rgb(218, 188, 188);
 }
