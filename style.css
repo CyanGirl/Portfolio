@@ -7,7 +7,9 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-size: 100vw;
 }
-
+.up {
+  margin-top: 30%;
+}
 #me {
   min-height: 100vh;
   color: #aba8c6;
@@ -29,7 +31,7 @@ body {
   justify-content: space-evenly;
 }
 #leave {
-  background-image: url("images/new3.jpg");
+  background-image: url("images/new3-min.jpg");
 }
 #message {
   width: 80vw;
@@ -37,7 +39,8 @@ body {
 textarea {
   size: inherit;
   opacity: 0.7;
-  overflow: auto;
+  overflow: hidden;
+  width: 40vw;
 }
 h6 {
   color: rgb(226, 232, 243);
@@ -53,14 +56,14 @@ h3,
 #space {
   width: 85vw;
   margin: auto;
-  background-image: url("images/background4.jpg");
+  background-image: url("images/background4-min.jpg");
   background-size: 100vw;
 }
 #aboutme,
 #works,
 #contacts,
 #skills {
-  background-image: url("images/new3.jpg");
+  background-image: url("images/new3-min.jpg");
   box-shadow: 10px 10px 15px black;
   border-radius: 2vw;
   width: 75vw;
