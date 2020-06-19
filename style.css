@@ -8,8 +8,22 @@ body {
   background-size: 100vw;
 }
 .up {
-  margin-top: 30%;
+  opacity: 0;
+  animation-name: popin;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
+@keyframes popin {
+  from {
+    margin-top: -100px;
+  }
+  to {
+    margin-top: 200px;
+    opacity: 1;
+  }
+}
+
 #me {
   min-height: 100vh;
   color: #aba8c6;
@@ -22,6 +36,12 @@ body {
 .item {
   margin: auto;
   height: 35vh;
+  background-size: 100%;
+}
+.carousel-caption {
+  background: url("images/all1.jfif");
+  padding: 30px;
+  background-size: 100vh;
 }
 
 .flex {
@@ -79,10 +99,16 @@ h5 {
   background-color: black;
   padding: 5px;
 }
+.item > img {
+  width: 100%;
+  height: 100%;
+}
 .myphoto {
   animation-name: shake;
   animation-duration: 2s;
-  animation-delay: 0.5s;
+  animation-delay: 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 @keyframes fadein {
   0% {
@@ -99,11 +125,10 @@ h5 {
   0% {
     transform: scale(0.1);
   }
-  50% {
-    transform: scale(0.5);
-  }
+
   100% {
     transform: scale(1);
+    opacity: 1;
   }
 }
 #arrow {
